@@ -1,0 +1,21 @@
+$primary-color: #3498db;
+$primary-card-color: #ffffff6e;
+
+body {
+  background: $primary-color;
+}
+
+.card {
+  background-color: $primary-card-color;
+  width: 30%;
+  height: 20rem;
+  top: 20vh;
+  left: 35vw;
+}
+
+.select-box {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap;
+}
